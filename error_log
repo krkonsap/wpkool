@@ -1,0 +1,8 @@
+[07-Dec-2018 07:42:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_month_link(), 1 passed in /home/konkriiktkhk/public_html/wordpress/wp-content/themes/audioman/inc/breadcrumb.php on line 81 and exactly 2 expected in /home/konkriiktkhk/public_html/wordpress/wp-includes/link-template.php:483
+Stack trace:
+#0 /home/konkriiktkhk/public_html/wordpress/wp-content/themes/audioman/inc/breadcrumb.php(81): get_month_link('2018')
+#1 /home/konkriiktkhk/public_html/wordpress/wp-content/themes/audioman/template-parts/header/breadcrumb.php(15): audioman_breadcrumb()
+#2 /home/konkriiktkhk/public_html/wordpress/wp-includes/template.php(690): require('/home/konkriikt...')
+#3 /home/konkriiktkhk/public_html/wordpress/wp-includes/template.php(647): load_template('/home/konkriikt...', false)
+#4 /home/konkriiktkhk/public_html/wordpress/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /home/konkriiktkhk/public_html/wordpress/wp-content/themes/audioman/inc/template-functions.php(573): get_template_part('templ in /home/konkriiktkhk/public_html/wordpress/wp-includes/link-template.php on line 483
