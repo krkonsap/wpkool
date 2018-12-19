@@ -13,7 +13,7 @@
 			</div><!-- .wrapper -->
 
 		</div><!-- #content -->
-<a href="tel:+15555551212"><img src="https://example.com/wp-content/uploads/2018/10/phoneicon2.png" alt="Call us" /></a>
+<a href="tel:+15555551212" hidden><img src="https://example.com/wp-content/uploads/2018/10/phoneicon2.png" alt="Call us" /></a>
 		<?php get_template_part( 'template-parts/footer/footer', 'newsletter' ); ?>
 
 		<?php get_template_part( 'template-parts/footer/footer', 'instagram' ); ?>
